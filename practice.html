@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="wth=device-wth, initial-scale=1.0">
+  <title>Document</title>
+
+  <style> 
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    .container {
+      width: 100px;
+      height: 100px;
+      display: flex;
+      overflow-x: scroll;
+      scroll-snap-type: x mandatory;
+    }
+    .container .cord {
+      min-width: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;   
+      scroll-snap-align: center;   
+    }
+    .container .cord:nth-child(1) {
+      background-color: lightblue;
+    }
+    .container .cord:nth-child(2) {
+      background-color: lightcoral;
+    }
+    .container .cord:nth-child(3) {
+      background-color: lightgreen;
+    }
+    .container .cord:nth-child(4) {
+      background-color: lightgoldenrodyellow;
+    }
+
+
+
+
+
+
+
+
+
+
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="cord">1</div>
+    <div class="cord">2</div>
+    <div class="cord">3</div>
+    <div class="cord">4</div>
+  </div>
+
+</body>
+</html>

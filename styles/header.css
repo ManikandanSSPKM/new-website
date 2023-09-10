@@ -1,0 +1,15 @@
+.search-box {
+  font-size: 20px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.header {
+  font-size: 30px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
